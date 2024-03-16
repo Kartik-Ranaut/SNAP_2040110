@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:100vw;
+    height:fit-content;
+
+}
+
+.container{
+    width:100pw;
+    height:100vh;
+    
+}
+.parallax{
+    position: sticky;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: green;
+
+}
+.l1{
+    font-size: 2.4rem;
+
+}
+.l2{
+    font-size: 2.9rem;
+    margin-right: 50px;
+}
+.l3{
+    font-size: 2.4rem;
+    margin-left: 100px;
+}
+.parallax2{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line1{
+    font-size: 4.5rem;
+    color: pink;
+}
+.line2{
+    font-size: 4.5rem;
+    color: rgb(232, 26, 60);
+}
+
+.parallax3{
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+    
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serial{
+    margin-left: 20px;
+    font-size: 5rem;
+}
+.myth{
+    height: 450px;
+    width: 500px;
+    background-color: red;
+}
+.fact{
+    height: 450px;
+    width: 500px;
+    background-color: blue;
+}
